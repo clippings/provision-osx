@@ -17,6 +17,8 @@ git clone git@github.com:clippings/provision-osx.git
 
 ## Usage
 
+### Tools and apps through Brew
+
 Run the `./brew.sh` file to install [Homebrew](http://brew.sh/) if it's not installed, update it, install [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) and run it with [`Brewfile`](Brewfile).
 
 *Note*: You are encouraged to read through the [`Brewfile`](Brewfile) and remove things you don't need, don't want, have them installed another way or have better alternatives for.
@@ -25,6 +27,19 @@ Run the `./brew.sh` file to install [Homebrew](http://brew.sh/) if it's not inst
 cd provision-osx
 ./brew.sh
 ```
+
+### Composer and global tools installed with Composer
+
+Please follow the instructions on https://getcomposer.org/download/ for the latest and most secure way to install Composer.
+
+Copy [`composer.json`](composer.json) from this project to Composer global config directory and install the global dependencies:
+
+``` bash
+cp composer.json ~/.composer/composer.json
+composer global install
+```
+
+This would install useful tools like PHPUnit, PHP Code Sniffer and PHP Code Style Fixer.
 
 ## Installed software
 
