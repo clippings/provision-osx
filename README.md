@@ -25,3 +25,19 @@ Run the `./brew.sh` file to install [Homebrew](http://brew.sh/) if it's not inst
 cd provision-osx
 ./brew.sh
 ```
+
+## Installed software
+
+You should really read the [`Brewfile`](Brewfile) and check the latest version of it and what it would install.
+
+As an overview it installs:
+
+- CLI tools like GNU coreutils, findutils, latest Bash 4, Bash tab completions
+- Latest versions of Git, wget, cURL, OpenSSL
+- Image tools like Imagick, optipng, jpegoptim
+- Browsers: Google Chrome and Firefox
+- Latest versions of Python, Node & npm, PHP and rbenv for Ruby
+- Text editors like Vim, Neovim, Atom, Sublime Text. You are free to remove the ones you won't use.
+- Vagrant & Virtualbox for virtualisation.
+- Communication and design tools - e.g. Slack and Sketch.
+- Source Code Pro font
