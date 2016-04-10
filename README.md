@@ -8,7 +8,7 @@ This is not a dotfiles configuration repository, nor it is a recipe repository. 
 
 ## Install
 
-Clone this project in a folder on your of your choosing:
+Clone this project in a location of your choosing:
 
 ``` bash
 cd ~/Documents
