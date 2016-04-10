@@ -41,3 +41,12 @@ As an overview it installs:
 - Vagrant & Virtualbox for virtualisation.
 - Communication and design tools - e.g. Slack and Sketch.
 - Source Code Pro font
+
+
+## Updating software
+
+ To update just run the following command:
+ 
+ ``` bash
+ brew update && brew upgrade --all
+ ```
