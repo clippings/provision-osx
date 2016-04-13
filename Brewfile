@@ -74,3 +74,6 @@ cask 'sequel-pro'
 # Virtualisation
 cask 'vagrant'
 cask 'virtualbox'
+
+# Shared team passwords
+cask '1password'
