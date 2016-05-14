@@ -77,3 +77,6 @@ cask 'virtualbox'
 
 # Shared team passwords
 cask '1password'
+
+# Debugging
+cask 'macgdbp'
