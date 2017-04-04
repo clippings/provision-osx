@@ -18,6 +18,7 @@ brew 'bash'
 brew 'bash-completion'
 
 # Useful completions
+tap 'homebrew/completions'
 brew 'brew-cask-completion'
 brew 'bundler-completion'
 brew 'gem-completion'
