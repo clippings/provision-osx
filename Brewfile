@@ -31,8 +31,9 @@ brew 'curl'
 brew 'git'
 
 # PHP and tools
-brew 'homebrew/php/php70', args: ['with-gmp']
-brew 'homebrew/php/php70-xdebug'
+brew 'php71'
+brew 'php71-gmp'
+brew 'php71-xdebug'
 
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method
