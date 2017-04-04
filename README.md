@@ -6,6 +6,8 @@ Provision a new OSX machine with dev tools.
 
 This is not a dotfiles configuration repository, nor it is a recipe repository. It is just a simple set of commands and tools to set up a developer's machine. Its aim is to reduce the initial time of installing tools and apps on a new machine.
 
+A prerequisite is having a GitHub account. It's recommended to generate ssh keys for each new machine as described in [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/). 
+
 ## Install
 
 Clone this project in a location of your choosing:
