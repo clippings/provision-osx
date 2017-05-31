@@ -18,11 +18,11 @@ brew 'bash'
 brew 'bash-completion'
 
 # Useful completions
-brew 'homebrew/completions/brew-cask-completion'
-brew 'homebrew/completions/bundler-completion'
-brew 'homebrew/completions/gem-completion'
-brew 'homebrew/completions/open-completion'
-brew 'homebrew/completions/vagrant-completion'
+brew 'brew-cask-completion'
+brew 'bundler-completion'
+brew 'gem-completion'
+brew 'open-completion'
+brew 'vagrant-completion'
 
 # Latest versions of essential tools
 brew 'wget', args: ['with-iri']
