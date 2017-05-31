@@ -66,7 +66,7 @@ brew 'vim', args: ['override-system-vi']
 tap 'neovim/neovim'
 brew 'neovim/neovim/neovim'
 cask 'atom'
-cask 'sublime-text3'
+cask 'sublime-text'
 
 # Database client
 cask 'sequel-pro'
