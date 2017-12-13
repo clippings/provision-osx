@@ -6,6 +6,8 @@ Provision a new OSX machine with dev tools.
 
 This is not a dotfiles configuration repository, nor it is a recipe repository. It is just a simple set of commands and tools to set up a developer's machine. Its aim is to reduce the initial time of installing tools and apps on a new machine.
 
+A prerequisite is having a GitHub account. It's recommended to generate ssh keys for each new machine as described in [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/). 
+
 ## Install
 
 Clone this project in a location of your choosing:
@@ -27,19 +29,6 @@ Run the `./brew.sh` file to install [Homebrew](http://brew.sh/) if it's not inst
 cd provision-osx
 ./brew.sh
 ```
-
-### Composer and global tools installed with Composer
-
-Please follow the instructions on https://getcomposer.org/download/ for the latest and most secure way to install Composer.
-
-Copy [`composer.json`](composer.json) from this project to Composer global config directory and install the global dependencies:
-
-``` bash
-cp composer.json ~/.composer/composer.json
-composer global install
-```
-
-This would install useful tools like PHPUnit, PHP Code Sniffer and PHP Code Style Fixer.
 
 ## Installed software
 
@@ -65,3 +54,20 @@ As an overview it installs:
  ``` bash
  brew update && brew upgrade --all
  ```
+
+
+### Additional tools installed via Composer (optional)
+
+These are additional tools and optional steps, if you work on multiple and don't have them in the Vagrant image.
+
+* Install Composer follow the instructions on https://getcomposer.org/download/ for the latest and most secure way.
+
+* Copy [`composer.json`](composer.json) from this project to Composer global config directory and install the global dependencies:
+
+``` bash
+cp composer.json ~/.composer/composer.json
+composer global install
+```
+
+* Additional useful tools:
+ **PHPUnit**, **PHP Code Sniffer** and **PHP Code Style Fixer**.

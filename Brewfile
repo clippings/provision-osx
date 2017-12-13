@@ -18,6 +18,7 @@ brew 'bash'
 brew 'bash-completion'
 
 # Useful completions
+tap 'homebrew/completions'
 brew 'brew-cask-completion'
 brew 'bundler-completion'
 brew 'gem-completion'
@@ -30,8 +31,10 @@ brew 'curl'
 brew 'git'
 
 # PHP and tools
-brew 'homebrew/php/php70', args: ['with-gmp']
-brew 'homebrew/php/php70-xdebug'
+tap 'homebrew/php'
+brew 'php71'
+brew 'php71-gmp'
+brew 'php71-xdebug'
 
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method
