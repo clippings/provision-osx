@@ -32,7 +32,6 @@ brew 'git'
 # PHP and tools
 brew 'homebrew/php/php70', args: ['with-gmp']
 brew 'homebrew/php/php70-xdebug'
-brew 'homebrew/php/php-cs-fixer'
 
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method
