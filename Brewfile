@@ -31,6 +31,7 @@ brew 'curl'
 brew 'git'
 
 # PHP and tools
+tap 'homebrew/php'
 brew 'php71'
 brew 'php71-gmp'
 brew 'php71-xdebug'
