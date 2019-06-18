@@ -8,7 +8,7 @@ brew 'coreutils'
 # GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew 'findutils'
 # GNU `sed`, overwriting the built-in `sed`
-brew 'gnu-sed', args: ['default-names']
+brew 'gnu-sed'
 # Latest OpenSSL
 brew 'openssl'
 # Latest Bash
@@ -18,7 +18,6 @@ brew 'bash'
 brew 'bash-completion'
 
 # Useful completions
-tap 'homebrew/completions'
 brew 'brew-cask-completion'
 brew 'bundler-completion'
 brew 'gem-completion'
@@ -26,15 +25,12 @@ brew 'open-completion'
 brew 'vagrant-completion'
 
 # Latest versions of essential tools
-brew 'wget', args: ['with-iri']
+brew 'wget'
 brew 'curl'
 brew 'git'
 
 # PHP and tools
-tap 'homebrew/php'
 brew 'php71'
-brew 'php71-gmp'
-brew 'php71-xdebug'
 
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method
@@ -44,7 +40,7 @@ brew 'rbenv'
 # Image-related tools
 brew 'jpegoptim'
 brew 'optipng'
-brew 'imagemagick', args: ['with-webp']
+brew 'imagemagick'
 
 # For GUI and other apps having an installer
 tap 'caskroom/cask'
@@ -65,9 +61,9 @@ cask 'slack'
 cask 'sketch'
 
 # Text-editors
-brew 'vim', args: ['override-system-vi']
+brew 'vim'
 tap 'neovim/neovim'
-brew 'neovim/neovim/neovim'
+brew 'neovim'
 cask 'atom'
 cask 'sublime-text'
 
