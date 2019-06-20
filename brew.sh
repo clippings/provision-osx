@@ -11,6 +11,11 @@ brew tap Homebrew/bundle
 
 # Install tools and apps from the Brewfile wih Brew and Cask
 brew bundle --file=Brewfile
+pecl install xdebug
 
 # Cleanup old downloads
 brew cleanup
+
+# Link to homebrew's php
+echo 'export PATH="/usr/local/opt/php@7.1/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/opt/php@7.1/sbin:$PATH"' >> ~/.bash_profile
