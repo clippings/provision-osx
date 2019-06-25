@@ -1,8 +1,0 @@
-{
-    "require": {
-        "clippings/composer-init": "^0.4.0",
-        "phpunit/phpunit": "^5.3",
-        "squizlabs/php_codesniffer": "^2.6",
-        "friendsofphp/php-cs-fixer": "^2.6, <2.7"
-    }
-}
