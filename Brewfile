@@ -37,6 +37,9 @@ brew 'node' # This installs `npm` too using the recommended installation method
 brew 'python3'
 brew 'rbenv'
 
+# JavaScript package manager
+brew 'yarn'
+
 # Image-related tools
 brew 'jpegoptim'
 brew 'optipng'
@@ -76,3 +79,6 @@ cask 'virtualbox'
 
 # Shared team passwords
 cask '1password'
+
+# Wiki
+cask 'notion'
