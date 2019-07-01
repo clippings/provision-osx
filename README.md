@@ -54,20 +54,3 @@ As an overview it installs:
  ``` bash
  brew update && brew upgrade --all
  ```
-
-
-### Additional tools installed via Composer (optional)
-
-These are additional tools and optional steps, if you work on multiple and don't have them in the Vagrant image.
-
-* Install Composer follow the instructions on https://getcomposer.org/download/ for the latest and most secure way.
-
-* Copy [`composer.json`](composer.json) from this project to Composer global config directory and install the global dependencies:
-
-``` bash
-cp composer.json ~/.composer/composer.json
-composer global install
-```
-
-* Additional useful tools:
- **PHPUnit**, **PHP Code Sniffer** and **PHP Code Style Fixer**.
