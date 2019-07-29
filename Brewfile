@@ -57,7 +57,7 @@ cask 'font-source-code-pro'
 cask 'firefox'
 cask 'google-chrome'
 
-# Browser Extension
+# Google Drive
 cask 'google-drive-file-stream'
 
 # Communication
