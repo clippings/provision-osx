@@ -57,6 +57,9 @@ cask 'font-source-code-pro'
 cask 'firefox'
 cask 'google-chrome'
 
+# Google Drive
+cask 'google-drive-file-stream'
+
 # Communication
 cask 'slack'
 
@@ -82,3 +85,6 @@ cask '1password'
 
 # Wiki
 cask 'notion'
+
+# Zoom
+cask 'zoomus'
