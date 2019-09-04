@@ -30,7 +30,8 @@ brew 'curl'
 brew 'git'
 
 # PHP and tools
-brew 'php71'
+brew 'php@7.1'
+brew 'composer'
 
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method
