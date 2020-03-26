@@ -1,12 +1,12 @@
-# Provision OSX
+# Provision OSX - Developer/Non-Developer
 
 Provision a new OSX machine with dev tools.
 
 ## Intro
 
-This is not a dotfiles configuration repository, nor it is a recipe repository. It is just a simple set of commands and tools to set up a developer's machine. Its aim is to reduce the initial time of installing tools and apps on a new machine.
+This is not a dotfile configuration repository, nor it is a recipe repository. It is just a simple set of commands and tools to set up a developer's/non-developer machine. Its aim is to reduce the initial time of installing tools and apps on a new machine.
 
-A prerequisite is having a GitHub account. It's recommended to generate ssh keys for each new machine as described in [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/). 
+A prerequisite is having a GitHub account. It's recommended to generate ssh keys for each new machine as described in [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 
 ## Install
 
@@ -50,7 +50,7 @@ As an overview it installs:
 ## Updating software
 
  To update just run the following command:
- 
+
  ``` bash
  brew update && brew upgrade --all
  ```

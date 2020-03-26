@@ -1,0 +1,18 @@
+#######################################
+# Non-Developer file for host non-development machine
+#######################################
+
+# Browsers
+cask 'google-chrome'
+cask 'firefox'
+
+# Communication
+cask 'slack'
+cask 'zoomus'
+
+#Storage & Secure
+cask 'google-drive-file-stream'
+cask '1password'
+
+# Office 365
+cask 'microsoft-office'
