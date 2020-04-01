@@ -4,7 +4,7 @@ Provision a new OSX machine with dev tools.
 
 ## Intro
 
-This is not a dotfile configuration repository, nor it is a recipe repository. It is just a simple set of commands and tools to set up a developer's/non-developer machine. Its aim is to reduce the initial time of installing tools and apps on a new machine.
+This is not a dotfiles configuration repository, nor it is a recipe repository. It is just a simple set of commands and tools to set up a developer's/non-developer machine. Its aim is to reduce the initial time of installing tools and apps on a new machine.
 
 A prerequisite is having a GitHub account. It's recommended to generate ssh keys for each new machine as described in [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 
@@ -21,18 +21,19 @@ git clone git@github.com:clippings/provision-osx.git
 
 ### Tools and apps through Brew
 
-Run the `./brew.sh` file to install [Homebrew](http://brew.sh/) if it's not installed, update it, install [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) and run it with [`Brewfile`](Brewfile).
+Run the `./developer.sh` or `./non-developer.sh` file to install [Homebrew](http://brew.sh/) if it's not installed, update it, install [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) and run it with [`Developer.bundle`][`Non-Developer.bundle`].
 
-*Note*: You are encouraged to read through the [`Brewfile`](Brewfile) and remove things you don't need, don't want, have them installed another way or have better alternatives for.
+*Note*: You are encouraged to read through the [`Developer.bundle`][`Non-Developer.bundle`] and remove things you don't need, don't want, have them installed another way or have better alternatives for.
 
 ``` bash
 cd provision-osx
-./brew.sh
+./developer.sh or
+./non-developer.sh
 ```
 
 ## Installed software
 
-You should really read the [`Brewfile`](Brewfile) and check the latest version of it and what it would install.
+You should really read the [`Developer.bundle`][`Non-Developer.bundle`] and check the latest version of it and what it would install.
 
 As an overview it installs:
 

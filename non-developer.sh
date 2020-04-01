@@ -9,24 +9,8 @@ brew update
 # Install brew bundle
 brew tap Homebrew/bundle
 
-# Install tools and apps for Devolepers or Non-Developers
-echo "Type the job role ( Developer or Non-Developer ), followed by [ENTER]:"
-read role
-
-while [[ "$role" != "Developer" && "$role" != "Non-Developer" ]]
-do
-  echo "Please type the correct format"
-  read role
-done
-
-if [ "$role" != "Non-Developer" ]
-then
-  brew bundle --file=Developer
-  pecl install xdebug
-else
-  brew bundle --file=Non-Developer
-  pecl install xdebug
-fi
+# Install tools and apps for Non-Developers
+brew bundle --file=Non-Developer.bundle
 
 # Cleanup old downloads
 brew cleanup

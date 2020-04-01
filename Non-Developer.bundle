@@ -10,7 +10,7 @@ cask 'firefox'
 cask 'slack'
 cask 'zoomus'
 
-#Storage & Secure
+# Storage & Secure
 cask 'google-drive-file-stream'
 cask '1password'
 
