@@ -12,6 +12,17 @@ brew tap Homebrew/bundle
 # Install tools and apps for Devolepers
 brew bundle --file=Developer.bundle
 
+# Install pecl repository
+./pecl_installs.sh
+
+# Install composer tool for dependency management and instruct the Devoleper how to add the path into ~/.bash_profile
+./composer.sh
+
+echo "Composer is installed at ~/bin. You need to add it to your PATH with:"
+echo
+echo " echo \"PATH=\$PATH:\$HOME/bin\" >> ~/.bash_profile"
+echo
+
 # Cleanup old downloads
 brew cleanup
 
