@@ -1,5 +1,5 @@
 #######################################
-# Brewfile for host development machine
+# Developer file for host development machine
 #######################################
 
 # GNU core utilities (those that come with OS X are outdated)
@@ -64,12 +64,10 @@ cask 'google-drive-file-stream'
 cask 'slack'
 
 # UI & vectors
-cask 'sketch'
+cask 'figma'
 
 # Text-editors
 brew 'vim'
-tap 'neovim/neovim'
-brew 'neovim'
 cask 'atom'
 cask 'sublime-text'
 
@@ -82,9 +80,6 @@ cask 'virtualbox'
 
 # Shared team passwords
 cask '1password'
-
-# Wiki
-cask 'notion'
 
 # Zoom
 cask 'zoomus'
