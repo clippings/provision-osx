@@ -1,8 +1,8 @@
 #/usr/bin/env bash
 
 # Install Xcode
-command -v xcode-select --install
-# -v xcode-select -p 1> /dev/null || 
+xcode-select -p 1> /dev/null || xcode-select --install
+
 # Install Brew if not installed
 command -v brew > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
