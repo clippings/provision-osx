@@ -1,5 +1,5 @@
 #######################################
-# Developer file for host development machine
+# Developer file for host development machine #
 #######################################
 
 # GNU core utilities (those that come with OS X are outdated)
@@ -22,15 +22,11 @@ brew 'brew-cask-completion'
 brew 'bundler-completion'
 brew 'gem-completion'
 brew 'open-completion'
-brew 'vagrant-completion'
 
 # Latest versions of essential tools
 brew 'wget'
 brew 'curl'
 brew 'git'
-
-# PHP and tools
-brew 'php71'
 
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method
@@ -39,19 +35,6 @@ brew 'rbenv'
 
 # JavaScript package manager
 brew 'yarn'
-
-# Image-related tools
-brew 'jpegoptim'
-brew 'optipng'
-brew 'imagemagick'
-
-# For GUI and other apps having an installer
-tap 'caskroom/cask'
-tap 'caskroom/versions'
-
-# Fonts
-tap 'caskroom/fonts'
-cask 'font-source-code-pro'
 
 # Browsers
 cask 'firefox'
@@ -68,8 +51,6 @@ cask 'figma'
 
 # Text-editors
 brew 'vim'
-cask 'atom'
-cask 'sublime-text'
 
 # Database client
 cask 'sequel-pro'

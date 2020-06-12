@@ -1,21 +1,27 @@
 #/usr/bin/env bash
 
+# Install Xcode
+command -v xcode-select -p 1> /dev/null || xcode-select --install
+
 # Install Brew if not installed
 command -v brew > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Update Brew and Formulae
+# Update Brew and formulae
 brew update
 
-# Install brew bundle
+# Install Brew bundle
 brew tap Homebrew/bundle
+
+# Install Homebrew-deprecated
+brew tap exolnet/homebrew-deprecated
 
 # Install tools and apps for Devolepers
 brew bundle --file=Developer.bundle
 
-# Install pecl repository
+# Install Pecl repository
 ./pecl_installs.sh
 
-# Install composer tool for dependency management and instruct the Devoleper how to add the path into ~/.bash_profile
+# Install Composer tool for dependency management and instruct the Devoleper how to add the path into ~/.bash_profile
 ./composer.sh
 
 echo "Composer is installed at ~/bin. You need to add it to your PATH with:"
@@ -25,7 +31,3 @@ echo
 
 # Cleanup old downloads
 brew cleanup
-
-# If needed override the systems' PHP with the version from the Brewfile (currently version 7.1)
-grep 'export PATH="/usr/local/opt/php@7.1/bin:$PATH"' ~/.bash_profile || echo 'export PATH="/usr/local/opt/php@7.1/bin:$PATH"' >> ~/.bash_profile
-grep 'export PATH="/usr/local/opt/php@7.1/sbin:$PATH"' ~/.bash_profile || echo 'export PATH="/usr/local/opt/php@7.1/sbin:$PATH"' >> ~/.bash_profile
