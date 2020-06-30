@@ -1,6 +1,4 @@
-#######################################
-# Developer file for host development machine #
-#######################################
+# Developer file for host development machine
 
 # GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -22,16 +20,21 @@ brew 'brew-cask-completion'
 brew 'bundler-completion'
 brew 'gem-completion'
 brew 'open-completion'
+brew 'vagrant-completion'
 
 # Latest versions of essential tools
 brew 'wget'
 brew 'curl'
 brew 'git'
 
+# PHP and tools
+brew 'php@7.3'
+
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method
 brew 'python3'
 brew 'rbenv'
+
 
 # JavaScript package manager
 brew 'yarn'
@@ -39,6 +42,10 @@ brew 'yarn'
 # Browsers
 cask 'firefox'
 cask 'google-chrome'
+
+# Image-related tools
+brew 'jpegoptim'
+brew 'optipng'
 
 # Google Drive
 cask 'google-drive-file-stream'

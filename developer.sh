@@ -1,6 +1,6 @@
 #/usr/bin/env bash
 
-# Install Xcode
+# Install Command Line Extensions
 xcode-select -p 1> /dev/null || xcode-select --install
 
 # Install Brew if not installed
