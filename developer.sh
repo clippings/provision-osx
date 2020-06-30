@@ -18,9 +18,6 @@ brew tap exolnet/homebrew-deprecated
 # Install tools and apps for Devolepers
 brew bundle --file=Developer.bundle
 
-# Install Pecl repository
-./pecl_installs.sh
-
 # Install Composer tool for dependency management and instruct the Devoleper how to add the path into ~/.bash_profile
 ./composer.sh
 
