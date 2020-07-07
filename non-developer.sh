@@ -9,7 +9,7 @@ command -v brew > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.github
 # Update Brew and Formulaе
 brew update
 
-# Install brew bundle
+# Install Brew bundle
 brew tap Homebrew/bundle
 
 # Install tools and apps for Non-Developers
