@@ -1,6 +1,4 @@
-#######################################
 # Non-Developer file for host non-development machine
-#######################################
 
 # Browsers
 cask 'google-chrome'

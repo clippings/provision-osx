@@ -10,8 +10,7 @@ then
     rm composer-setup.php
     exit 1
 fi
-
-php composer-setup.php --install-dir=$HOME/bin --filename=composer --snapshot --quiet
+php composer-setup.php --install-dir=/usr/local/bin/ --filename=composer --snapshot --quiet
 RESULT=$?
 rm composer-setup.php
 exit $RESULT
