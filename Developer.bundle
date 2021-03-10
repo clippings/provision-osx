@@ -28,7 +28,7 @@ brew 'curl'
 brew 'git'
 
 # PHP and tools
-brew 'php@7.3'
+brew 'php@7.4'
 
 # Languages
 brew 'node' # This installs `npm` too using the recommended installation method

@@ -6,10 +6,11 @@ cask 'firefox'
 
 # Communication
 cask 'slack'
-cask 'zoomus'
+cask 'zoom'
 
 # Storage & Secure
 cask 'google-drive-file-stream'
+cask 'google-backup-and-sync'
 cask '1password'
 
 # Office 365
