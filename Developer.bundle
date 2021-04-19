@@ -35,7 +35,6 @@ brew 'node' # This installs `npm` too using the recommended installation method
 brew 'python3'
 brew 'rbenv'
 
-
 # JavaScript package manager
 brew 'yarn'
 
@@ -48,10 +47,11 @@ brew 'jpegoptim'
 brew 'optipng'
 
 # Google Drive
-cask 'google-drive-file-stream'
+cask 'google-backup-and-sync'
 
 # Communication
 cask 'slack'
+cask 'zoom'
 
 # UI & vectors
 cask 'figma'
@@ -69,5 +69,11 @@ cask 'virtualbox'
 # Shared team passwords
 cask '1password'
 
-# Zoom
-cask 'zoomus'
+# Office 365
+cask 'microsoft-office'
+
+# Packer
+cask 'packer'
+
+# Docker
+cask 'docker'
