@@ -77,3 +77,9 @@ cask 'packer'
 
 # Docker
 cask 'docker'
+
+# Ansible
+cask 'ansible'
+
+# Terraform
+cask 'terraform@0.12'
