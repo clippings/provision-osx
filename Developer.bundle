@@ -79,7 +79,4 @@ brew 'packer'
 cask 'docker'
 
 # Ansible
-cask 'ansible'
-
-# Terraform
-cask 'terraform@0.12'
+brew 'ansible'
