@@ -73,7 +73,7 @@ cask '1password'
 cask 'microsoft-office'
 
 # Packer
-cask 'packer'
+brew 'packer'
 
 # Docker
 cask 'docker'
