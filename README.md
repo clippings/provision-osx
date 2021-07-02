@@ -31,7 +31,10 @@ cd provision-osx
 ./non-developer.sh
 ```
 *Note*: After the installation of ./developer.sh script, Composer will be installed at ~/bin. You need to add it to your PATH with:
-`echo " echo \"PATH=\$PATH:\$HOME/bin\" >> ~/.bash_profile` or change `$HOME/bin ` to a different folder that doesn't require `sudo`.
+
+`echo "PATH=$PATH:$HOME/bin" >> ~/.bash_profile` 
+
+or change `$HOME/bin ` to a different folder that doesn't require `sudo`.
 
 ## Installed software
 
