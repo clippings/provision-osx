@@ -4,7 +4,7 @@
 xcode-select -p 1> /dev/null || xcode-select --install
 
 # Install Brew if not installed
-command -v brew > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+command -v brew > /dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Update Brew and Formulaе
 brew update
