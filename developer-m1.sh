@@ -15,9 +15,6 @@ brew update
 # Install Brew bundle
 brew tap Homebrew/bundle
 
-# Install Homebrew-deprecated
-brew tap exolnet/homebrew-deprecated
-
 # Install tools and apps for Devolepers
 brew bundle --file=Developer-m1.bundle
 
