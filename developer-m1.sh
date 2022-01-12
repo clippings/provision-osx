@@ -19,4 +19,4 @@ brew tap Homebrew/bundle
 brew bundle --file=Developer-m1.bundle
 
 # Install Composer tool for dependency management
-sudo ./composer.sh
+sudo ./composer-m1.sh
