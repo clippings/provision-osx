@@ -7,8 +7,9 @@ xcode-select -p 1> /dev/null || xcode-select --install
 command -v brew > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Add Homebrew to your PATH
-sudo echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile
+sudo echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile && eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Add 
 # Update Brew and Formulae
 brew update
 

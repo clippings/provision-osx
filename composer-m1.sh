@@ -8,7 +8,7 @@ php -r "unlink('composer-setup.php');"
 
 # Move Composer to /usr/local/bin
 mkdir -p /usr/local/bin
-mv composer.phar /usr/local/bin/composer
+sudo mv composer.phar /usr/local/bin/composer
 
 # Set the latest Composer version(branch --1)
-composer self-update --1
+sudo composer self-update --1
