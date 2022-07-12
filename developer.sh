@@ -12,17 +12,11 @@ brew update
 # Install Brew bundle
 brew tap Homebrew/bundle
 
-# Install Homebrew-deprecated
-brew tap exolnet/homebrew-deprecated
-
 # Install tools and apps for Devolepers
 brew bundle --file=Developer.bundle
 
 # Install Composer tool for dependency management
 ./composer.sh
-
-# Install Terraform
-./terraform.sh
 
 # Set the latest Composer version(branch --1)
 composer self-update --1
