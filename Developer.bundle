@@ -20,7 +20,6 @@ brew 'brew-cask-completion'
 brew 'bundler-completion'
 brew 'gem-completion'
 brew 'open-completion'
-brew 'vagrant-completion'
 
 # Latest versions of essential tools
 brew 'wget'
@@ -68,11 +67,5 @@ cask '1password'
 # Office 365
 cask 'microsoft-office'
 
-# Packer
-brew 'packer'
-
 # Docker
 cask 'docker'
-
-# Ansible
-brew 'ansible'

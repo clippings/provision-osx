@@ -9,7 +9,6 @@ command -v brew > /dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.github
 # Add Homebrew to your PATH
 sudo echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile && eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Add 
 # Update Brew and Formulae
 brew update
 
@@ -20,4 +19,4 @@ brew tap Homebrew/bundle
 brew bundle --file=Developer-m1.bundle
 
 # Install Composer tool for dependency management
-sudo ./composer-m1.sh
+sudo ./composer.sh
