@@ -20,3 +20,6 @@ brew bundle --file=Developer-m1.bundle
 
 # Install Composer tool for dependency management
 sudo ./composer.sh
+
+# Set the latest Composer version(branch --1)
+sudo composer self-update --1
