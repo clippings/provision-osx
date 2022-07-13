@@ -18,6 +18,12 @@ brew tap Homebrew/bundle
 # Install tools and apps for Devolepers
 brew bundle --file=Developer-m1.bundle
 
+# Create the dir if it doesn't exist
+[ -e /usr/local/bin ] || sudo mkdir -p /usr/local/bin
+
+# Change owner of the dir
+sudo chown -R 'whoami':admin /usr/local/bin
+
 # Install Composer tool for dependency management
 sudo ./composer.sh
 
