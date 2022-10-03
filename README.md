@@ -21,14 +21,16 @@ git clone git@github.com:clippings/provision-osx.git
 
 ### Tools and apps through Brew
 
-Run the `./developer.sh` or `./non-developer.sh` file to install [Homebrew](http://brew.sh/) if it's not installed, update it, install [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) and run it with [`Developer.bundle`][`Non-Developer.bundle`].
+Аccording to the type of operating system, run the `./developer.sh` or `./developer-m1.sh`  or `./non-developer.sh` or `./non-developer-m1.sh` file to install [Homebrew](http://brew.sh/) if it's not installed, update it, install [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) and run it with [`Developer.bundle` or `Developer-m1.bundle`][`Non-Developer.bundle`].
 
-*Note*: You are encouraged to read through the [`Developer.bundle`][`Non-Developer.bundle`] and remove things you don't need, don't want, have them installed another way or have better alternatives for.
+*Note*: You are encouraged to read through the [`Developer.bundle` or `Developer-m1.bundle` ][`Non-Developer.bundle`] and remove things you don't need, don't want, have them installed another way or have better alternatives for.
 
 ``` bash
 cd provision-osx
 ./developer.sh or
-./non-developer.sh
+./developer-m1.sh or
+./non-developer.sh or
+./non-developer-m1.sh
 ```
 *Note*: After the installation of ./developer.sh script, Composer will be installed at ~/bin. You need to add it to your PATH with:
 
@@ -38,9 +40,11 @@ cd provision-osx
 
 or change `$HOME/bin` to a different folder that doesn't require `sudo`.
 
+*Note*: On M1 machine, Composer will be installed and moved on /usr/local/bin
+
 ## Installed software
 
-You should really read the [`Developer.bundle`][`Non-Developer.bundle`] and check the latest version of it and what it would install.
+You should really read the [`Developer.bundle` or Developer-m1.bundle][`Non-Developer.bundle`] and check the latest version of it and what it would install.
 
 As an overview it installs:
 
@@ -60,5 +64,5 @@ As an overview it installs:
  To update just run the following command:
 
  ``` bash
- brew update && brew upgrade --all
+ brew update && brew upgrade
  ```

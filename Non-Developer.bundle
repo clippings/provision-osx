@@ -9,7 +9,7 @@ cask 'slack'
 cask 'zoom'
 
 # Storage & Secure
-cask 'google-backup-and-sync'
+cask 'google-drive'
 cask '1password'
 
 # Office 365
